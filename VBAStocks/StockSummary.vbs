@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module1"
+Attribute VB_Name = "StockSummary"
 Sub StockSummary()
 
 'Challenge 2: Allows the script to run for every worksheet
