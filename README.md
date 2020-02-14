@@ -1,9 +1,6 @@
 # VBA-challenge
 VBA Homework - The VBA of Wall Street
 
-Background
-You are well on your way to becoming a programmer and Excel master! In this homework assignment you will use VBA scripting to analyze real stock market data. Depending on your comfort level with VBA, you may choose to challenge yourself with a few of the challenge tasks.
-
 Stock market analyst
 
 Instructions
@@ -23,3 +20,13 @@ CHALLENGES
 Your solution will also be able to return the stock with the "Greatest % increase", "Greatest % Decrease" and "Greatest total volume". The solution will look as follows:
 
 Make the appropriate adjustments to your VBA script that will allow it to run on every worksheet, i.e., every year, just by running the VBA script once.
+
+--------------------------------------------------------------------
+Folder VBAStocks contains:
+StockSummary.VBS - 
+Uses For Loops to move through all of the stocks in the data set, tracks the changes and prints out the totals on a Summary Table. A For Loop is also included that enables script to run through every sheet in the workbook.
+Screenshots for the final summary tables for every year in the workbook
+
+Folder Challenge contains:
+Challenge.VBS -
+Uses For Loops to look through the Summary Table and keeps track of the Greatest % Increase, Greatest % Decrease, and Greatest Total Volume. As the loop runs through, the current stock is compared to stored stocks. If the current stock satisfies any of the conditions for the new table, it is stored instead. It also includes a For Loop that allows it to run through each table.
