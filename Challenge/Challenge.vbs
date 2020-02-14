@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module2"
+Attribute VB_Name = "Challenge"
 Sub Challenge()
 
 'Challenge 1: Make the sheet show the Greatest % Increase,
